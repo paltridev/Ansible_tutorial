@@ -22,7 +22,7 @@ Steps:
 17.	do step 7 in 1st vm
 18.	do “vim /etc/ansible/hosts” and add this at the bottom :
 
-[webservers]
+[webservers]<br>
 Ip of 2nd vm
 
 19.	in 1st vm do “ansible webservers -m ping” to test if 2nd vm connects
