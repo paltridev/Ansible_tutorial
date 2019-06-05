@@ -39,7 +39,7 @@ For playbook(all should be done in 1st vm)
 
 
 
-24.	paste the content from playbook.yml in the file or simply download the playbook.yml file and place it in a folder.<span style="color:red;"> *note: the playbook.yml is only for example purposes, you should create a yml file according to your requirements and it should be well indented and structured.</span>
+24.	paste the content from playbook.yml in the file or simply download the playbook.yml file and place it in a folder.<span style="text-color: red;"> *note: the playbook.yml is only for example purposes, you should create a yml file according to your requirements and it should be well indented and structured.</span>
 
 25.	Save file with extension .yml
 26.	Do “ansible-playbook filename.yml”
