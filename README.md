@@ -39,25 +39,7 @@ For playbook(all should be done in 1st vm)
 
 
 
-24.	Paste this in the file:
-
----
-- hosts: webservers
-  user: ansadm
-  become: yes
-  become_method: sudo
-  tasks:
-         - name: Install MariaDB
-           apt: name=mariadb-server state=latest
-           
-         - name: Install Nginx
-           apt: name=nginx state=latest
-
-         - name: Install PHP-fpm
-           apt: name=php-fpm state=latest
-
-         - name: Install Redmine
-           apt: name=redmine-mysql state=latest
+24.	paste the content from playbook.yml in the file or simply download the playbook.yml file and place it in a folder. *note: the playbook.yml is only for example purposes, you should create a yml file according to your requirements and it should be well indented and structured.
 
 25.	Save file with extension .yml
 26.	Do “ansible-playbook filename.yml”
