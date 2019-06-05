@@ -49,7 +49,7 @@ For playbook(all should be done in 1st vm)
   tasks:
          - name: Install MariaDB
            apt: name=mariadb-server state=latest
-
+           
          - name: Install Nginx
            apt: name=nginx state=latest
 
