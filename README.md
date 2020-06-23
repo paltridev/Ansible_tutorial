@@ -33,6 +33,7 @@ Ip of 2nd vm
 
 
 For playbook(all should be done in 1st vm)
+
 21.	In 1st vm do step 7 then “cd /etc/ansible”
 22.	Create file by using : “cat > filename.yml” *note: replace filename by any name u want*
 23.	Do “nano filename.yml” *note: filename should be the same name which is in step 22*
